@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* utilitymenu */
+
+#English #UtilityMenu{
+	float: right;
+	height: 11px;
+	width: 79px;
+	margin-top: 37px;
+}
+#English #UtilityMenu a:hover{
+	text-indent: -9999px;
+}
+#English #UtilityMenu li#U-japanease a{
+	height: 11px;
+	width: 69px;
+	display: block;
+	background: url(../../english/img/btn_japanease_o.gif);
+}
+
+
+/* globalNavigation */
+
+#English #GlobalNavigation li{
+	float: left;
+	width: 253px;
+	height: 50px;
+}
+#English #GlobalNavigation a{
+	height: 50px;
+	display: block;
+}
+#English #GlobalNavigation li#G-business a{
+	width: 253px;
+	background: url(../../english/img/gnv_business_o.gif);
+}
+#English #GlobalNavigation li#G-company a{
+	width: 253px;
+	background: url(../../english/img/gnv_company_o.gif);
+}
+#English #GlobalNavigation li#G-contact a{
+	width: 254px;
+	background: url(../../english/img/gnv_contact_o.gif);
+}
+
+
+/* navigation Mount */
+
+#English #Business #GlobalNavigation li#G-business a{
+	text-indent: -9999px;
+	background: url(../../english/img/gnv_business_o.gif);
+}
+#English #Company #GlobalNavigation li#G-company a{
+	text-indent: -9999px;
+	background: url(../../english/img/gnv_company_o.gif);
+}
+#English #Contact #GlobalNavigation li#G-contact a{
+	text-indent: -9999px;
+	background: url(../../english/img/gnv_contact_o.gif);
+}
+
+
+/* pagetop */
+
+#English #Pagetop p{
+	float: right;
+	height: 12px;
+	width: 57px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#English #Pagetop a{
+	height: 12px;
+	width: 57px;
+	display: block;
+	background: url(../../english/img/btn_pagetop_o.gif) no-repeat left top;
+}
+
+#English #Company table{
+	width: 720px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+#English #Company th,
+#English #Company td{
+	padding: 0.5em;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+}
+#English #Company th{
+	background: #f1f1f1;
+	width: 9em;
+}
+#English strong{
+	font-size: 120%;
+	color: #0068b7;
+	clear: both;
+}

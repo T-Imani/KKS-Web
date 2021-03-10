@@ -1,0 +1,72 @@
+@charset "Shift_JIS";
+
+/* comapny */
+
+#History table,
+#Profile table{
+	width: 540px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+
+#History th,
+#History td,
+#Profile th,
+#Profile td{
+	padding: 0.5em;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+}
+#Profile th{
+	background: #f1f1f1;
+	width: 8em;
+}
+#History th{
+	background: #f1f1f1;
+	width: 3em;
+}
+#History .yearA{
+	width: 3em;
+	text-align: right;
+}
+#History .yearB{
+	background: #f1f1f1;
+	width: 4em;
+	text-align: right;
+}
+#Profile small{
+	background: url(../img/arrow_s.gif) no-repeat left center;
+	padding-left: 10px;
+	font-size: 95%;
+}
+#Partner h4{
+	clear: both;
+	padding: 5px;
+	margin-top: 0.3em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	line-height: 100%;
+	background: #f1f1f1;
+}
+#Partner li{
+	/*float: left;
+	margin-right: 10px;
+	width: 260px;*/
+	border-bottom: 1px dashed #CCCCCC;
+	background: url(../img/arrow_s.gif) no-repeat left 0.5em;
+	padding-left: 10px;
+}
+#TKSgroup dt{
+	background: url(../img/arrow_m.gif) no-repeat left 0.1em;
+	padding-left: 19px;
+	font-weight: bold;
+}
+#TKSgroup dd{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #CCCCCC;
+}

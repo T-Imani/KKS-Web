@@ -1,0 +1,6 @@
+$moto_mail = 'sawada@matex.com';
+
+
+
+
+1

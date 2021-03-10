@@ -1,0 +1,66 @@
+@charset "Shift_JIS";
+
+/* browser reset */
+
+html,body,h1,h2,h3,h4,h5,h6,address{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ƒƒCƒŠƒI", Meiryo, "‚l‚r ‚oƒSƒVƒbƒN", sans-serif;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+
+div,blockquote,p,pre,ul,ol,li,dl,dt,dd{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+table,caption,th,td{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-collapse: collapse ;
+	border-spacing: 0px;
+	empty-cells: show;
+}
+
+img{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+hr{
+	padding: 0;
+	margin: 0;
+}
+
+iframe{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+form{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+span,em,strong,dfn,code,samp,kbd,var,cite,abbr,acronym,q,br,ins,del,a,img,object{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+ul,li{
+	list-style: none;
+}
+
+hr{
+	display: none;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>KKS</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../shared/css/import.css">
+<script type="text/javascript" src="../shared/js/common.js"></script>
+<script type="text/javascript" src="../shared/js/AC_RunActiveContent.js"></script>
+<!-- TemplateParam name="id" type="text" value="PageID" -->
+</head>
+<body id="English">
+<a name="PAGETOP" id="PAGETOP"></a>
+<div id="Wrapper">
+<div id="@@(id)@@">
+<!--Heder-->
+<div id="Header">
+<h1><a href="../english/index.html"><img src="../english/img/logo_kks.gif" alt="KKS" width="58" height="34"></a></h1>
+<!--UtilityMenu-->
+<div id="UtilityMenu">
+<ul>
+<li id="U-japanease"><a href="../index.html"><img src="../english/img/btn_japanease.gif" alt="Jpanease" width="69" height="11" class="hdcatch"></a></li>
+</ul>
+</div>
+<!--UtilityMenu-->
+</div>
+<!--Heder-->
+<hr>
+<!--GlobalNavigation-->
+<div id="GlobalNavigation">
+<ul>
+<li id="G-business"><a href="../english/business.html"><img src="../english/img/gnv_business.gif" alt="BUSINESS" width="253" height="50"></a></li>
+<li id="G-company"><a href="../english/company.html"><img src="../english/img/gnv_company.gif" alt="COMPANY" width="253" height="50"></a></li>
+<li id="G-contact"><a href="../english/contact.html"><img src="../english/img/gnv_contact.gif" alt="CONTACT" width="254" height="50"></a></li>
+</ul>
+</div>
+<!--GlobalNavigation-->
+<hr>
+<!--Title-->
+<h2><!-- TemplateBeginEditable name="Title" --><img src="../english/img/img_top.jpg" alt="New Challenge KKS,covering the world with technology and reliability." width="760" height="250"><!-- TemplateEndEditable --></h2>
+<!--Title-->
+<hr>
+<div id="Container">
+<div id="FrmTop"></div>
+<!--Contents-->
+<div id="Contents"><!-- TemplateBeginEditable name="Contents" -->Contents<!-- TemplateEndEditable --></div>
+<!--Contents-->
+<div id="FrmBottom"></div>
+</div>
+<hr>
+<!--Pagetop-->
+<div id="Pagetop">
+<p><a href="#PAGETOP"><img src="../english/img/btn_pagetop.gif" alt="PAGETOP" width="57" height="12"></a></p>
+</div>
+<!--Pagetop-->
+<hr>
+<!--Footer-->
+<div id="Footer">
+<div id="FrmTop"></div>
+<dl class="clearfix">
+<dt><img src="../shared/img/logo_kks_s.gif" alt="KKS" width="40" height="24"></dt>
+<dd>CopyRight &copy; KKS, LTD.<br>
+4-11-54 Takeshima, Nishiyodogawa-ku, Osaka 555-0011 Japan TEL +81-06-6471-7771(Representative)
+FAX +81-06-6477-5374</dd>
+</dl>
+<div id="FrmBottom"></div>
+</div>
+<!--Footer-->
+</div>
+</div>
+</body>
+</html>

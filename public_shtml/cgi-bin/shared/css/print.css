@@ -1,0 +1,7 @@
+@charset "Shift_JIS";
+
+@media print {
+body {
+	zoom: 80%;
+}
+}

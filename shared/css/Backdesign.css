@@ -1,0 +1,15 @@
+@charset "Shift_JIS";
+
+.NewsBack{
+	background-color: #ffffff;/*#0088cc*/
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	    /*clear: both;*/
+}
+
+.NewsBack2{
+	background-color: #0088cc;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	padding: 20px;
+}

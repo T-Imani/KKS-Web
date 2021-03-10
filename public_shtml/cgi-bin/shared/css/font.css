@@ -1,0 +1,7 @@
+@charset "Shift_JIS";
+
+/* font */
+
+.fontS{font-size:85%;line-height:150%;}
+.fontM{font-size:100%;line-height:180%;}
+.fontL{font-size:120%;line-height:150%;}

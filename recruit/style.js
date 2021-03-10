@@ -1,0 +1,1 @@
+str = window.navigator.platform;re = "Win";re2 = "Mac";if (str.match(re)) {    document.write('<link rel="stylesheet" href="win.css">');}elseif (str.match(re2)) {    document.write('<link rel="stylesheet" href="mac.css">');}else {    document.write('<link rel="stylesheet" href="win.css">');}

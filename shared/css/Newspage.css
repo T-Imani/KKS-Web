@@ -1,0 +1,171 @@
+@charset "Shift_JIS";
+
+/*-- ↓斜めタイトル ----------------------------------------------------------------*/
+#NewspageHeading{
+	width: 150px;
+	transform: rotate(-25deg);
+	margin-left: -40px;
+}
+
+#Newspage{
+	float: left;
+	width: 700px;
+}
+#Newspage table{
+	width: 700px;
+}
+#Newspage th{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px dashed #CCCCCC;
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+}
+#Newspage td{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px dashed #CCCCCC;
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+}
+#Newspage th{
+	width: 6em;
+	padding-left: 9px;
+	background: url(../img/arrow_s.gif) no-repeat left 1em;
+}
+/*-- ↑斜めタイトル ----------------------------------------------------------------*/
+
+/*-- ↓テープ風 ----------------------------------------------------------------*/
+.ribbon20-wrapper {  
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 300px;
+  background: #f1f1f1;
+  }
+.ribbon20 {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  box-sizing: border-box;
+  padding: 0 12px;
+  margin: 0;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: white;
+  background: #00bfff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
+}
+.ribbon20:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: -7px;
+  border: none;
+  height: 38px;
+  width: 7px;
+  background: #00bfff;
+  border-radius: 5px 0 0 5px;
+}
+.ribbon20:after {
+  position: absolute;
+  content: '';
+  bottom: -7px;
+  left: -5px;
+  border: none;
+  height: 7px;
+  width: 5px;
+  background: #4d99ca;
+  border-radius: 5px 0 0 5px;
+}
+/*-- ↑テープ風 ----------------------------------------------------------------*/
+
+/*-- ↓ノート風 ----------------------------------------------------------------*/
+.note8{
+  background-color: #e0ffff;/*薄い色*/
+  /*color: #00bfff;*//*濃い色*/
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 1px #00bfff;
+  padding: 0.3em 1em 2em 1em;
+  box-shadow:2px 2px 0 rgba(0,0,0,.1);
+  border-radius: 7px;
+}
+.sen8{
+  background-color: #e0ffff;
+  background-image:
+  linear-gradient(90deg, rgba(255, 246, 230, 0) 0%, rgba(255, 246, 230, 0) 50%, #e0ffff 0%, #e0ffff 100%), linear-gradient(180deg, rgba(237, 119, 128, 0) 0%, rgba(237, 119, 128, 0) 95%, #ed7780 100%);
+  background-size: 8px 100%,100% 2em;
+  line-height: 2em;
+  padding: 2em 1em 0.2em 1em;
+}
+/*-- ↑ノート風 ----------------------------------------------------------------*/
+
+/*-- ↓回転 (マイナスネジ風) ----------------------------------------------------------------*/
+
+.circle1{/*丸*/
+  display: inline-block;
+  float:right; 
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #808080;
+
+  animation:3s linear infinite rotation1;
+}
+.circle2{/*丸*/
+  display: inline-block;
+  float:left; 
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #808080;
+
+  animation:3s linear infinite rotation2;
+}
+#box1{
+  display:inline-block;
+  float:right; 
+  width:40px;
+  height:10px;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-right:5px;
+  margin-left:5px;
+  z-index: 10;
+  background: #696969;
+}
+#box2{
+  display:inline-block;
+  float:left; 
+  width:40px;
+  height:10px;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-right:5px;
+  margin-left:5px;
+  z-index: 10;
+  background: #696969;
+}
+@keyframes rotation1{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
+}
+@keyframes rotation2{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
+}
+#box3{
+  animation:3s linear infinite rotation3;
+}
+@keyframes rotation3{
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
+}
+/*-- ↑回転 (マイナスネジ風) ----------------------------------------------------------------*/

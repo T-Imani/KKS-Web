@@ -1,0 +1,48 @@
+@charset "Shift_JIS";
+
+/* parts */
+
+h2{
+	clear: both;
+	margin-bottom: 10px;
+}
+
+h3{
+	clear: both;
+	margin-bottom: 0.7em;
+}
+#List dl{
+	float: left;
+	width: 265px;
+	margin-right: 10px;
+	line-height: 160%;
+	margin-bottom: 20px;
+}
+#List dl.end{
+	margin-right: 0px;
+}
+.clear{
+	clear: both;
+}
+.must{
+	color: #CC0000;
+}
+.arrowS{
+	padding-left: 9px;
+	background: url(../img/arrow_s.gif) no-repeat left 0.5em;
+}
+
+.arrowL{
+	padding-left: 15px;
+	background: url(../img/arrow_l.gif) no-repeat left top;
+}
+.indent{
+	text-indent: -1em;
+	padding-left: 1em;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}

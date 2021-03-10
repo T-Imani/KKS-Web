@@ -1,0 +1,17 @@
+@charset "Shift_JIS";
+
+/* import css */
+
+@import url("set.css");
+@import url("font.css");
+@import url("margin.css");
+@import url("common.css");
+@import url("parts.css");
+@import url("top.css");
+@import url("product.css");
+@import url("company.css");
+@import url("recruit.css");
+@import url("contact.css");
+@import url("sitemap.css");
+@import url("english.css");
+@import url("print.css");

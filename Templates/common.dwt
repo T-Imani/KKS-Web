@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="@@(content)@@">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="keywords" content="金田機械製作所,株式会社KKS,情報産業,物流業界,印刷業界,輪転機,搬入,搬送,巻取紙搬入設備,紙庫設備,自動巻取紙搬送装置,AGV,自動巻取紙搬送装置,AGS,BTCキャリア,生スタックコンベヤシステム,バンドル・仕分けコンベヤシステム,自動紙継支度装置,PPR,ワンプ処理機能付支度装置,WPR,関連設備">
+<meta name="description" content="株式会社KKSは、新聞印刷業界を中心とする情報産業、また物流産業への貢献を目指し続けます。">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>株式会社KKS - 情報産業・物流業界への貢献。その先端を担い、時代を切り開く。</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../shared/css/import.css">
+<script type="text/javascript" src="../shared/js/common.js"></script>
+<script type="text/javascript" src="../shared/js/AC_RunActiveContent.js"></script>
+<!-- TemplateParam name="BodyID" type="text" value="NoID" --><!-- TemplateParam name="content" type="text" value="text/html; charset=Shift_JIS" -->
+</head>
+<body id="@@(BodyID)@@">
+<a name="PAGETOP" id="PAGETOP"></a>
+<div id="Wrapper">
+<!--▼▼ヘッダ-->
+<div id="Header">
+<h1><a href="../index.html"><img src="../shared/img/logo_kks.gif" alt="株式会社KKS" width="523" height="34"></a></h1>
+<!--▼ユーティリティメニュー-->
+<div id="UtilityMenu">
+<ul>
+<li id="U-sitemap"><a href="../sitemap.html"><img src="../shared/img/btn_sitemap.gif" alt="サイトマップ" width="59" height="11" class="hdcatch"></a></li>
+<li id="U-english"><a href="../english/index.html"><img src="../shared/img/btn_english.gif" alt="English" width="43" height="11" class="hdcatch"></a></li>
+</ul>
+</div>
+<!--▲ユーティリティメニュー-->
+</div>
+<!--▲▲ヘッダ-->
+<hr>
+<!--▼グローバルナビゲーション-->
+<div id="GlobalNavigation">
+<ul>
+<li id="G-product"><a href="../product/index.html"><img src="../shared/img/gnv_product.gif" alt="製品紹介" width="190" height="50"></a></li>
+<li id="G-company"><a href="../company/index.html"><img src="../shared/img/gnv_company.gif" alt="会社案内" width="190" height="50"></a></li>
+<li id="G-recruit"><a href="../recruit/index.html"><img src="../shared/img/gnv_recruit.gif" alt="採用情報" width="190" height="50"></a></li>
+<li id="G-contact"><a href="https://ssl.alpha-mail.ne.jp/kks-j.co.jp/cgi-bin/contact/"><img src="../shared/img/gnv_contact.gif" alt="お問い合わせ" width="190" height="50"></a></li>
+</ul>
+</div>
+<!--▲グローバルナビゲーション-->
+<hr>
+<!--▼タイトル-->
+<h2><!-- TemplateBeginEditable name="Title" --><img src="../img/img_top.jpg" alt="Technology and Reliability　新たな挑戦、世界にはばたく技術と信頼。" width="760" height="250"><!-- TemplateEndEditable --></h2>
+<!--▲タイトル-->
+<hr>
+<div id="Container">
+<div id="FrmTop"></div>
+<!--▼▼コンテンツ-->
+<div id="Contents"><!-- TemplateBeginEditable name="Contents" -->コンテンツ<!-- TemplateEndEditable --></div>
+<!--▲▲コンテンツ-->
+<div id="FrmBottom"></div>
+</div>
+<hr>
+<!--▼ページトップボタン-->
+<div id="Pagetop">
+<p><a href="#PAGETOP"><img src="../shared/img/btn_pagetop.gif" alt="このページのトップに戻る" width="122" height="12"></a></p>
+</div>
+<!--▲ページトップボタン-->
+<hr>
+<!--▼フッタ-->
+<div id="Footer">
+<div id="FrmTop"></div>
+<dl class="clearfix">
+<dt><img src="../shared/img/logo_kks_s.gif" alt="株式会社KKS" width="40" height="24"></dt>
+<dd>CopyRight &copy; KKS,LTD.<br>
+株式会社KKS 〒555-0011 大阪市西淀川区竹島4丁目11番54号　TEL：06-6471-7771（代表）　FAX：06-6477-5374</dd>
+</dl>
+<div id="FrmBottom"></div>
+</div>
+<!--▲フッタ-->
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2149328-10");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

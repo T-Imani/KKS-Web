@@ -1,0 +1,23 @@
+@charset "Shift_JIS";
+
+/* sitemap */
+
+#Sitemap h3{
+	margin-top: 1.5em;
+}
+#Sitemap h4{
+	clear: both;
+	padding: 5px;
+	margin-top: 0.3em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	line-height: 100%;
+	background: #f1f1f1;
+}
+#SitemapList li{
+	float: left;
+	width: 230px;
+	padding-left: 9px;
+	margin-bottom: 0.5em;
+	background: url(../img/arrow_s.gif) no-repeat left 0.5em;
+}

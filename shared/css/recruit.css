@@ -1,0 +1,26 @@
+@charset "Shift_JIS";
+
+/* recruit */
+
+#Recruit table{
+	width: 540px;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-collapse: collapse;
+}
+#Recruit th,
+#Recruit td{
+	padding: 0.5em;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+}
+#Recruit th{
+	background: #f1f1f1;
+	width: 6em;
+}
+#Recruit .bgcolor{
+	background: #DDDDDD;
+}

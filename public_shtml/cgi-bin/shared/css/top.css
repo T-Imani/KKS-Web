@@ -1,0 +1,41 @@
+@charset "Shift_JIS";
+
+/* top */
+
+#Top #Product{
+	margin-bottom: 20px;
+}
+#Top #Product li{
+	float: left;
+	width: 136px;
+	margin-right: 10px;
+}
+#Top #Product li.end{
+	margin-right: 0px;
+}
+#Top #News{
+	float: left;
+	width: 540px;
+}
+#Top #News table{
+	width: 540px;
+}
+#Top #News th,
+#Top #News td{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px dashed #CCCCCC;
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+}
+#Top #News th{
+	width: 6em;
+	padding-left: 9px;
+	background: url(../img/arrow_s.gif) no-repeat left 1em;
+}
+#Top #Banner{
+	float: left;
+	margin-top: 0px;
+	margin-left: 10px;
+}
