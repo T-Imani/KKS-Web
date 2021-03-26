@@ -74,7 +74,7 @@ body{
 	width: 760px;
 	text-align: center;
 	background: #FFFFFF;
-}
+} 
 #Container #FrmTop{
 	height: 20px;
 	width: 760px;
@@ -88,6 +88,26 @@ body{
 	display: block;
 	background: url(../img/frm_c_bottom.gif) no-repeat left bottom;
 }
+
+/* ▽k-marutani Add::2021.03.24  K-marutani-確認完了-*/
+/*
+#Container #FrmTopと#Container #FrmBottomの代わり
+#Container #FrmTopと#Container #FrmBottomが必要なくなります。
+使用するときはアンダーバーを消してください。(Base.htmlも)
+*/
+#Container______________________________________________________{
+	display:flex;/*要素を横並び*/
+	flex-wrap: wrap;/*折り返す*/
+	width: 760px;
+	text-align: center;
+	background: #FFFFFF;
+	border-radius:7px;/*角丸 k-marutani Add::2021.03.23*/
+	padding-top: 20px;/*#Container #FrmTopの代わり*/
+	padding-bottom: 20px;/*#Container #FrmBottomの代わり*/
+}
+/* △k-marutani Add::2021.03.24  K-marutani-確認完了-*/
+
+
 #Contents{
 	width: 720px;
 	margin-right: auto;
@@ -101,6 +121,7 @@ body{
 	background: #FFFFFF;
 	border-radius:	15px 10px 10px 15px;
 }
+
 /* T.Imanishi Add::2020.11.11 */
 
 /* header */
@@ -113,7 +134,6 @@ body{
 	float: left;
 	margin-top: 23px;
 }
-
 
 /* utilitymenu */
 
@@ -351,7 +371,38 @@ body{
 	display: block;
 	background: url(../img/frm_f_bottom.gif) no-repeat left bottom;
 }
+/* ▽k-marutani Add::2021.03.24  K-marutani-確認完了-*/
+#Footer______________________________________________________{
+	display: flex;/*要素を横並び*/
+	flex-wrap: wrap;/*折り返す*/
+	clear: both;
+	width: 760px;
+	margin-bottom: 20px;
+	font-size: 85%;
+	line-height: 140%;
+	background: #FFFFFF;
+	border-radius:7px;/*角丸*/
+	padding-top: 10px;/*#Footer #FrmTopの代わり*/
+	padding-bottom: 10px;/*#Footer #FrmBottomの代わり*/
+}
+#Footer______________________________________________________ dl{
+    height: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#Footer______________________________________________________ dt{
+	float: left;
+	width: 40px;
+	padding-top: 4px;
+}
+#Footer______________________________________________________ dd{
+	float: left;
+	width: 690px;
+	margin-left: 10px;
+}
+/* △k-marutani Add::2021.03.24  K-marutani-確認完了-*/
 #Footer dl{
+    height: 30px;
 	padding-right: 10px;
 	padding-left: 10px;
 }
@@ -474,3 +525,14 @@ body{
 }
 /* <-- T.Imanishi test::2018.11.12 */
 
+/* 画面追従するボタン　現状右下設定*/
+#top_btn
+{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  
+  border-radius: 6px;
+  background-color: rgba(255, 100, 0, 0.8);
+  padding: 6px 3px;
+}
